@@ -7,13 +7,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { TopToolBarComponent } from './top-tool-bar/top-tool-bar.component';
 import { GreetingComponent } from './greeting/greeting.component';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     TopToolBarComponent,
-    GreetingComponent
+    GreetingComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,

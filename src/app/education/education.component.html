@@ -1,0 +1,33 @@
+<div class="education-wrapper" id="education">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="heading-wrapper">
+            <div class="heading">
+                <h1 class="heading-timeline">EDUCATION 💻</h1>
+            </div>
+        </div>
+        <div class="about-education">
+            <div *ngFor="let n of timeline" wmAnimate="landing" aos speed="normal">
+                <div [class]=n.displayPosition1>
+                    <div [class]=n.displayPosition2>
+                        <div class="about-education-yearGrad">
+                            <h1>{{n.yearGrad}}</h1>
+                            <h6>{{n.duration}}</h6>
+                        </div>
+                        <div class="about-education-content">
+                            <span>{{n.school}}</span>
+                            <h4>{{n.title}}</h4>
+                            <h5>{{n.subtitle}}</h5>
+                            <p>{{n.desc}}</p>
+                        </div>
+                    </div>
+                    <!-- <div class="about-education-content">
+                        <h4>{{n.title}}</h4>
+                        <span>{{n.school}}</span>
+                        <p>{{n.desc}}</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

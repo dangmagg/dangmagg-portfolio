@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GreetingComponent implements OnInit {
 
+  // TODO: add links for linkedin and resume buttons
   greet = {
     fullname: "Maggie Dang",
     title: "Hello, I'm Maggie",
