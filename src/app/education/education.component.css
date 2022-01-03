@@ -1,3 +1,4 @@
+@import "../../assets/global/colors.scss";
 
 .education-wrapper {
     display: inline-block;
@@ -13,10 +14,12 @@
 
 .heading-wrapper {
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0;
 }
 
 .heading {
-    margin-bottom: 50px;
+    margin-bottom: 0;
     position: relative;
     transition: all .3s;
     display: inline-block;
