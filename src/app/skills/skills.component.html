@@ -1,0 +1,33 @@
+
+<div class="heading-wrapper">
+    <div class="heading">
+        <h1 class="heading-title">SKILLS 💻</h1>
+    </div>
+</div>
+<div class="skills-wrapper" id="skillsWrapper">
+    <div class="skills-section">
+        <!-- <mat-chip-list
+        class="skills-chip"
+        aria-label="Skills selection"
+        cdkDropList 
+        [cdkDropListData]="skills"
+        cdkDropListOrientation="horizontal"
+        (cdkDropListDropped)="drop($event)">
+        <mat-chip
+            class="skills-box"
+            cdkDrag
+            *ngFor="let s of skills" selected [color]=s.color>
+            {{s.name}}
+        </mat-chip>
+      </mat-chip-list> -->
+      <mat-chip-list
+      class="skills-chip"
+      aria-label="Skills selection">
+      <mat-chip
+          class="skills-box"
+          *ngFor="let s of skills" selected [color]=s.color>
+          {{s.name}}
+      </mat-chip>
+    </mat-chip-list>
+    </div>
+</div>
