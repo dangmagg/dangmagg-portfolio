@@ -1,12 +1,16 @@
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { MatCardModule } from '@angular/material/card';
 import { MatChipsModule } from '@angular/material/chips';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 
 const modules = [
     MatChipsModule,
-    DragDropModule
+    DragDropModule,
+    MatCardModule,
+    MatGridListModule
 ];
 
 @NgModule({

@@ -9,6 +9,7 @@ import { GreetingComponent } from './greeting/greeting.component';
 import { HeaderComponent } from './header/header.component';
 import { SkillsComponent } from './skills/skills.component';
 import { TopToolBarComponent } from './top-tool-bar/top-tool-bar.component';
+import { WorkComponent } from './work/work.component';
 
 
 
@@ -19,7 +20,8 @@ import { TopToolBarComponent } from './top-tool-bar/top-tool-bar.component';
     TopToolBarComponent,
     GreetingComponent,
     EducationComponent,
-    SkillsComponent
+    SkillsComponent,
+    WorkComponent
   ],
   imports: [
     BrowserModule,

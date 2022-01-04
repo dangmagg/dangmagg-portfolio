@@ -78,7 +78,8 @@ export class SkillsComponent implements OnInit {
     {name: 'Adobe Illustrator', color: this.basic},
     {name: 'Figma', color: this.basic},
     {name: 'Teamwork', color: this.basic},
-    {name: 'Leadership', color: this.basic}
+    {name: 'Leadership', color: this.basic},
+    {name: 'Management', color: this.basic}
   ];
 
   constructor() { }
