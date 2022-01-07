@@ -57,7 +57,7 @@ export class SkillsComponent implements OnInit {
     {name: 'Jupyter Notebook', color: this.basic},
     {name: 'Numpy', color: this.basic},
     {name: 'Scikit-learn', color: this.basic},
-    {name: 'Linux', color: this.basic},
+    {name: 'Unix', color: this.basic},
     {name: 'Terminal', color: this.basic},
     {name: 'Command line', color: this.basic},
     {name: 'Shell Scripting', color: this.basic},

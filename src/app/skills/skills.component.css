@@ -42,8 +42,8 @@
 
 .skills-section {
     align-items: center;
-    padding-left: 13rem;
-    padding-right: 13rem;
+    padding-left: 17rem;
+    padding-right: 17rem;
 }
 
 .mat-chip {
@@ -58,3 +58,10 @@
 .skills-chip .cdk-drop-list-dragging {
     transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
 } */
+
+@media (max-width: 1500px) {
+    .skills-section {
+        padding-left: 13rem;
+        padding-right: 13rem;
+    }
+}

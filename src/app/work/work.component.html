@@ -5,20 +5,33 @@
         </div>
     </div>
     <div class="work-wrapper">
-        <div class="work-section">
+        <div class="work-section" *ngFor="let w of works">
             <div class="left-wrapper">
-                <div class="img-wrapper">
-                    IMAGE HERE
+                <div class="left-container">
+                    <div class="img-wrapper">
+                        <img src={{w.imagelink}} alt="Clearbridge Mobile"/>
+                    </div>
+                    <div class="duration-wrapper">
+                        <h1>{{w.duration}}</h1>
+                    </div>
                 </div>
             </div>
             <div class="right-wrapper">
                 <div class="work-info-card-wrapper">
                     <mat-card class="work-info-card" [class.mat-elevation-z4]="true">
-                        <mat-card-title>COMPANY</mat-card-title>
-                        <mat-card-subtitle>JOB TITLE</mat-card-subtitle>
-                        <mat-card-content>
-                            <p>Description here</p>
-                        </mat-card-content>
+                        <mat-card-title>{{w.employer}}</mat-card-title>
+                        <mat-card-subtitle>{{w.title}}</mat-card-subtitle>
+                        <div class="desc-wrapper">
+                            <mat-card-content>
+                                <p>◉ {{w.desc1}}</p>
+                                <p>◉ {{w.desc2}}</p>
+                                <p>◉ {{w.desc3}}</p>
+                                <p>◉ {{w.desc4}}</p>
+                                <p>◉ {{w.desc5}}</p>
+                                <p>◉ {{w.desc6}}</p>
+                                <!-- <p>ABC</p> -->
+                            </mat-card-content>
+                        </div>
                     </mat-card>
                 </div>
             </div>
