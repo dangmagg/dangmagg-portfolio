@@ -1,0 +1,83 @@
+.projects-wrapper {
+    padding-bottom: 5rem;
+}
+
+.heading-wrapper {
+    display: flex;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    /* background-color: white; */
+}
+
+.heading {
+    margin-bottom: 0;
+    position: relative;
+    transition: all .3s;
+    display: inline-block;
+}
+
+.heading-title {
+    text-align: center;
+    font-weight: 400;
+}
+
+.heading h1 {
+    font-size: 40px;
+    position: relative;
+    width: auto;
+    margin-bottom: 0;
+}
+
+.project-pages-wrapper {
+
+}
+
+.pagination-wrapper {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-controls {
+    background: #55198b !important;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.proj-entry {
+    width: 95%;
+    /* float: left; */
+    background: rgb(178, 178, 201);
+    margin-bottom: 3em;
+}
+
+.proj-entry h4 {
+    font-weight: 560;
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+.proj-entry h5 {
+    line-height: normal;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: black
+}
+
+.card {
+    width: 700px;
+}
+
+@media (max-width: 1600px) {
+    .card {
+        width: 500px;
+    }
+}
+

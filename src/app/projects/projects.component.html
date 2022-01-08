@@ -1,0 +1,31 @@
+<div class="projects-wrapper">
+    <div class="heading-wrapper">
+        <div class="heading">
+            <h1 class="heading-title">PROJECTS 💡</h1>
+        </div>
+    </div>
+    <div class="project-pages-wrapper">
+        <div class="pagination-wrapper">
+            <pagination-controls (pageChange)="onPageChanged($event)"></pagination-controls>
+        </div>
+        <div class="row">
+            <ng-container *ngFor="let p of projs | paginate: configPages">
+                <div class="col-6 animate-box" data-animate-effect="fadeInLeft">
+                    <div class="proj-entry">
+                        <div class="card">
+                            <div>IMAGE HERE</div>
+                            <div class="card-content">
+                                <h4 class="card-title">{{p.title}}</h4>
+                                <h5 class="card-subtitle">{{p.subtitle}}</h5>
+                                <h5 class="card-text">{{p.desc1}}</h5>
+                                <h5 class="card-link"></h5>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </ng-container>
+        </div>
+    </div>
+
+</div>
