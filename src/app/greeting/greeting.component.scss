@@ -1,3 +1,5 @@
+@import "../../assets/colors.scss";
+
 .main {
     width: 90%;
     padding: 20px 10px;
@@ -65,8 +67,8 @@
 }
 
 .main-button {
-    background-color: #55198b;
-    border: solid 1px #55198b;
+    background-color: $dark-purple;
+    border: solid 1px $dark-purple;
     color: white;
     font-weight: 500;
     width: max-content;

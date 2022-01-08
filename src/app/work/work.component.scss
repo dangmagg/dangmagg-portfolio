@@ -1,3 +1,4 @@
+@import "../../assets/colors.scss";
 
 .work-exp-wrapper {
     padding-bottom: 5rem;
@@ -41,7 +42,7 @@
 
 .work-wrapper {
     width: 100%;
-    background-color: #e9e9e9;
+    background-color: $bg-grey;
 }
 
 .work-section {

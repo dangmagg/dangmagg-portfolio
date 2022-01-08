@@ -1,3 +1,5 @@
+@import "../../assets/colors.scss";
+
 .projects-wrapper {
     padding-bottom: 5rem;
 }
@@ -42,7 +44,7 @@
 }
 
 .pagination-controls {
-    background: #55198b !important;
+    // background: #55198b !important;
     margin: 0 auto;
 }
 
@@ -54,7 +56,7 @@
 .proj-entry {
     width: 95%;
     /* float: left; */
-    background: rgb(178, 178, 201);
+    background: $bg-grey;
     margin-bottom: 3em;
 }
 
