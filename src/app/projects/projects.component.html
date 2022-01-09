@@ -11,18 +11,22 @@
         <div class="row">
             <ng-container *ngFor="let p of projs | paginate: configPages">
                 <div class="col-6 animate-box" data-animate-effect="fadeInLeft">
-                    <div class="proj-entry">
+                    <div class="proj-entry" [class.mat-elevation-z3]="true">
                         <div class="card">
-                            <div>IMAGE HERE</div>
+                            <div class="image-container">IMAGE HERE</div>
                             <div class="card-content">
                                 <h4 class="card-title">{{p.title}}</h4>
-                                <h5 class="card-subtitle">{{p.subtitle}}</h5>
-                                <h5 class="card-text">{{p.desc1}}</h5>
-                                <h5 class="card-link"></h5>
+                                <h5 class="card-subtitle">TECHNOLOGY: {{p.subtitle}}</h5>
+                                <h6 class="card-link" *ngIf="p.link != ''">{{p.link}}</h6>
+                                <div class="card-text-wrapper">
+                                    <h5 class="card-text" *ngIf="p.desc1 != ''">{{p.desc1}}</h5>
+                                    <h5 class="card-text" *ngIf="p.desc2 != ''">{{p.desc2}}</h5>
+                                    <h5 class="card-text" *ngIf="p.desc3 != ''">{{p.desc3}}</h5>
+                                    <h5 class="card-text" *ngIf="p.desc4 != ''">{{p.desc4}}</h5>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </ng-container>
         </div>
