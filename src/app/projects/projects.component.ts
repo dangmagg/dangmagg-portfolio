@@ -8,6 +8,8 @@ export interface ProjectEntry {
   desc3: string;
   desc4: string;
   link: string;
+  linkTitle: string;
+  image: string;
 }
 
 @Component({
@@ -19,13 +21,40 @@ export class ProjectsComponent implements OnInit {
 
   configPages: any;
 
+  /*TODO: Add Github link for portfolio website */
   projs: ProjectEntry[] = [
-    {title: "a", subtitle: "b", desc1: "c", desc2: "d", desc3: "e", desc4: "lhfkdlshflksdjgkdsjgfsjg;lsjgdlshflksdjgkdsjgfsjg;lsjg;ljgl;dsjg;ljg;ldsjggjgfsjg;lsjg;ljgl;dsjdlshflksdjgkdsjgfsjg;lsjg;ljgl;dsjg;ljg;ldsjggjgfsjg;lsjg;ljgl;dsj;ljgl;dsjg;ljg;ldsjggjgfsjg;lsjg;ljgl;dsjg;ljg;ldsjgkfjg;lsjg;sjgldjgl;sdjgsdjg;ksdjg;djg;sdjgd;sjgdsjggjgkfjg;lsjg;sjgldjgl;sdjgsdjg;ksdjg;djg;sdjgd;sjg;ldgj;sdljg;lsdjg;lgj;s", link: ""},
-    {title: "a2", subtitle: "b", desc1: "c2", desc2: "", desc3: "e", desc4: "", link: "link here"},
-    {title: "a3", subtitle: "b", desc1: "c", desc2: "d", desc3: "", desc4: "", link: ""},
-    {title: "a", subtitle: "b", desc1: "c", desc2: "", desc3: "", desc4: "", link: ""},
-    {title: "a", subtitle: "b", desc1: "c", desc2: "d", desc3: "", desc4: "", link: "linkhere"},
-    {title: "a", subtitle: "b", desc1: "c", desc2: "d", desc3: "", desc4: "", link: ""},
+    {title: "SportCRED Social Media Website", subtitle: "Angular, TypeScript, Django, Python", 
+      desc1: "Designed and developed a social media platform for sport enthusiasts in a team of 6 for our client, SportCRED.", 
+      desc2: "Chosen as the website the client liked best out of 7+ teams and was utilized as the company’s first functional prototype.", 
+      desc3: "Implemented front-end features for users to register, login, access admin privileges, view news, user posts, setting bets, and playing sports trivia.", 
+      desc4: "Practiced agile software development lifecycle with daily scrum meetings.", 
+      link: "", linkTitle: "", image: ""},
+    {title: "ReAccess UI/UX Prototype", subtitle: "Figma, Photoshop", 
+      desc1: "Worked with a team of 6 to research, design, create, and present a prototype of an accessibility software modeled to help the hard-of-seeing and deaf community to navigate the web more effectively.", 
+      desc2: "Chosen by group members as the one with the best initial UI/UX design to base the project off on.", 
+      desc3: "", desc4: "", 
+      link: "https://www.figma.com/proto/ckO1twVQuNm3bor5DnZEWC/Group-C10-ReAccess-Hi-Fi-Prototype-UPDATED?node-id=0%3A1", 
+      linkTitle: "Figma Demo Link", image: "assets/ReAccess.PNG"},
+    {title: "Personal Portfolio Website", subtitle: "Angular, Typescript", 
+      desc1: "Developed and designed this portfolio website meant to showcase personal and work experience to employers.", 
+      desc2: "", desc3: "", desc4: "", link: "todo", linkTitle: "Github Link", 
+      image: ""},
+    {title: "Computer Science Course Website", subtitle: "JavaScript, Python, HTML, CSS, Flask, SQLite", 
+      desc1: "Designed and developed a course website in a team of 2.", 
+      desc2: "Created features to allow users to view course materials, updates from instructors, enter marks, submit remark requests, anonymous feedback, and download files.", 
+      desc3: "Implemented register and login features with a factor to distinguish a user as student or admin.", 
+      desc4: "Utilized SQLite to store and query student grades, requests, encrypted account data.", 
+      link: "", linkTitle: "", image: ""},
+    {title: "Farm Citi App", subtitle: "Android Studio, Java, Photoshop", 
+      desc1: "Participated in Hackathon “Hack Lassonde” with a team of 4 to create an android application to visualize the environmental impact of food choices a user makes.", 
+      desc2: "Implemented and designed the main dashboard screen and splash screen.", 
+      desc3: "", desc4: "", link: "https://devpost.com/software/test-3g8sir", linkTitle: "Devpost + Github Link", 
+      image: "assets/farmciti.PNG"},
+    {title: "Scikit-learn Reverse Engineer Project", subtitle: "Python, Visual Paradigm", 
+      desc1: "Created new features and implemented bug fixes with a team of 7 students for open-sourced machine learning Python library, Scikit-learn.", 
+      desc2: "Led the new feature implementation meant to fetch third party datasets from an external website and allow that data to be processed into consumable formats.", 
+      desc3: "Participated in an agile software development environment, written thorough documentation, unit tests, and UML models.", desc4: "", link: "", linkTitle: "", 
+      image: "assets/scikit-learn.png"},
 
   ];
 
