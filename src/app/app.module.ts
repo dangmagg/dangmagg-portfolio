@@ -12,6 +12,8 @@ import { ProjectsComponent } from './projects/projects.component';
 import { SkillsComponent } from './skills/skills.component';
 import { TopToolBarComponent } from './top-tool-bar/top-tool-bar.component';
 import { WorkComponent } from './work/work.component';
+import { SocialsComponent } from './socials/socials.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -24,7 +26,9 @@ import { WorkComponent } from './work/work.component';
     EducationComponent,
     SkillsComponent,
     WorkComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    SocialsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

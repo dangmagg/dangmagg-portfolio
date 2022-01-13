@@ -45,7 +45,7 @@ export class ProjectsComponent implements OnInit {
       desc2: "", desc3: "", desc4: "", link: "todo", linkTitle: "Github Link", 
       image: "assets/portfolio.png"},
     {title: "Computer Science Course Website", subtitle: "JavaScript, Python, HTML, CSS, Flask, SQLite", 
-      desc1: "Designed and developed a working course website in a team of 2. (Image shown is a just a mockup)", 
+      desc1: "Designed and developed a working course website in a team of 2. (Image shown is an old mockup)", 
       desc2: "Created features to allow users to view course materials, updates from instructors, enter marks, submit remark requests, anonymous feedback, and download files.", 
       desc3: "Implemented register and login features with a factor to distinguish a user as student or admin.", 
       desc4: "Utilized SQLite to store and query student grades, requests, encrypted account data.", 

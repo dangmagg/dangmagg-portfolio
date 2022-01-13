@@ -1,0 +1,57 @@
+@import "../../assets/colors.scss";
+
+.contact-wrapper {
+    padding-bottom: 3rem;
+}
+
+.heading-wrapper {
+    display: flex;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.heading {
+    margin-bottom: 0;
+    position: relative;
+    transition: all .3s;
+    display: inline-block;
+}
+
+.heading-title {
+    text-align: center;
+    font-weight: 400;
+}
+
+.heading h1 {
+    font-size: 40px;
+    position: relative;
+    width: auto;
+    margin-bottom: 0;
+}
+
+.contact-text-wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-text{
+    font-size: 20px;
+    font-weight: 300;
+    color: $bg-dark-grey;
+}
+
+.contact-email {
+    font-weight: 400;
+    color: $dark-purple;
+}
+
+.contact-text:hover {
+  color: black;
+  text-shadow: 1px 1px 1px #b5b5b5;
+  transition: all 0.3s;
+}
+
