@@ -4,7 +4,6 @@ import { NgModule } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatGridListModule } from '@angular/material/grid-list';
-// import { ButtonsModule, InputsModule } from 'angular-bootstrap-md';
 
 
 const modules = [

@@ -29,6 +29,7 @@ export class SkillsComponent implements OnInit {
     {name: 'Web Development', color: this.best},
     {name: 'Testing / QA', color: this.basic},
     {name: 'Angular', color: this.basic},
+    {name: 'Bootstrap', color: this.basic},
     {name: 'Flask', color: this.basic},
     {name: 'Spring', color: this.basic},
     {name: 'Dagger', color: this.basic},

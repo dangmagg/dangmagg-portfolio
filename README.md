@@ -1,4 +1,6 @@
-# DangmaggApp
+# Maggie Dang Portfolio Website
+
+Education Section loosely based off on https://github.com/sarthakgoenka/Angularfolio
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
 

@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContactComponent } from './contact/contact.component';
 import { EducationComponent } from './education/education.component';
+import { FooterComponent } from './footer/footer.component';
 import { GreetingComponent } from './greeting/greeting.component';
 import { HeaderComponent } from './header/header.component';
 import { ProjectsComponent } from './projects/projects.component';
@@ -15,6 +16,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { SocialsComponent } from './socials/socials.component';
 import { TopToolBarComponent } from './top-tool-bar/top-tool-bar.component';
 import { WorkComponent } from './work/work.component';
+// import { WavesModule } from 'angular-bootstrap-md';
 
 
 
@@ -29,7 +31,8 @@ import { WorkComponent } from './work/work.component';
     WorkComponent,
     ProjectsComponent,
     SocialsComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
