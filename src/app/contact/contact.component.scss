@@ -1,7 +1,7 @@
 @import "../../assets/colors.scss";
 
 .contact-wrapper {
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
 }
 
 .heading-wrapper {
@@ -53,5 +53,10 @@
   color: black;
   text-shadow: 1px 1px 1px #b5b5b5;
   transition: all 0.3s;
+}
+
+.social-wrapper {
+    display: flex;
+    justify-content: center;
 }
 

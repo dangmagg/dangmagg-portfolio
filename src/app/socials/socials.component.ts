@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SocialsComponent implements OnInit {
 
+
+  links = {
+    linkedin: "https://www.linkedin.com/in/maggie-dang-08138014a/",
+    github: "https://github.com/dangmagg",
+    devpost: "https://devpost.com/dangmagg?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav"
+  }
+
   constructor() { }
 
   ngOnInit(): void {
