@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { MaterialModule } from 'src/global/material/material.module';
 import { AppRoutingModule } from './app-routing.module';
@@ -16,7 +15,6 @@ import { SkillsComponent } from './skills/skills.component';
 import { SocialsComponent } from './socials/socials.component';
 import { TopToolBarComponent } from './top-tool-bar/top-tool-bar.component';
 import { WorkComponent } from './work/work.component';
-// import { WavesModule } from 'angular-bootstrap-md';
 
 
 
@@ -39,8 +37,7 @@ import { WorkComponent } from './work/work.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    NgxPaginationModule,
-    MDBBootstrapModule.forRoot()
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
