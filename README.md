@@ -2,7 +2,11 @@
 
 Education Section loosely based off on https://github.com/sarthakgoenka/Angularfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
+## Libraries
+- Font Awesome
+- animate.css 4
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
 ## Development server
 
