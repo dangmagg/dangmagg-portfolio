@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { MaterialModule } from 'src/global/material/material.module';
 import { AppRoutingModule } from './app-routing.module';
@@ -35,7 +34,6 @@ import { WorkComponent } from './work/work.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
     MaterialModule,
     NgxPaginationModule
   ],
