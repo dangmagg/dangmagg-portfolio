@@ -3,6 +3,9 @@
 Education Section loosely based off on https://github.com/sarthakgoenka/Angularfolio
 
 ## Libraries
+- Angular Material
+- Bootstrap 5
+- ngx-pagination
 - Font Awesome
 - animate.css 4
 
