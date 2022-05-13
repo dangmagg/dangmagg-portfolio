@@ -6,9 +6,9 @@
     padding: 2rem;
     padding-top: 2rem;
     // animation: fade_up 2s;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    // display: flex;
+    // align-items: center;
+    // text-align: center;
     // background-image: url("../../assets/toronto-on-air.jpg");
     // background-size: 100%;
 }
@@ -27,7 +27,6 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    // opacity: 0.75;
 }
 
 .greeting-text {
@@ -40,7 +39,7 @@
 }
 
 .greeting-bio {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 40px;
     margin-top: 1rem;
     position: relative;
@@ -79,23 +78,21 @@
   }
 
 .greeting-buttons {
-    display: inline-flex;
-    position: relative;
+  display: inline-flex;
+  position: relative;
 }
 
 .main-button {
-    // background-color: $dark-purple;
     border: solid 5px white;
     color: white;
     font-weight: 400;
     width: max-content;
     padding: 13px 22px;
-    margin-right: 50px;
+    margin: 15px;
     border-radius: 6px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin-top: 20px;
     font-size: 20px;
     cursor: pointer;
     transition: all .3s ease-in-out 0s;
