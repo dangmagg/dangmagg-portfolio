@@ -13,6 +13,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { SocialsComponent } from './socials/socials.component';
 import { TopToolBarComponent } from './top-tool-bar/top-tool-bar.component';
 import { WorkComponent } from './work/work.component';
+import { AboutComponent } from './about/about.component';
 
 
 
@@ -27,7 +28,8 @@ import { WorkComponent } from './work/work.component';
     ProjectsComponent,
     SocialsComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
