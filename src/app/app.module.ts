@@ -8,7 +8,6 @@ import { ContactComponent } from './contact/contact.component';
 import { EducationComponent } from './education/education.component';
 import { FooterComponent } from './footer/footer.component';
 import { GreetingComponent } from './greeting/greeting.component';
-import { HeaderComponent } from './header/header.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { SkillsComponent } from './skills/skills.component';
 import { SocialsComponent } from './socials/socials.component';
@@ -20,7 +19,6 @@ import { WorkComponent } from './work/work.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
     TopToolBarComponent,
     GreetingComponent,
     EducationComponent,
