@@ -14,7 +14,7 @@ export class EducationComponent implements OnInit {
       yearGrad: "2022",
       duration: "Sep 2017 - Apr 2022",
       school: "University of Toronto Scarborough",
-      desc: "Completed HBSc degree in Computer Science at the University of Toronto with a cGPA of 3.2+",
+      desc: "Completed HBSc degree in Computer Science at the University of Toronto",
       displayPosition1: "mar-left",
       displayPosition2: "textbox-right"
     },

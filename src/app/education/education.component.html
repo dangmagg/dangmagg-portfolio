@@ -31,3 +31,15 @@
 
     </div>
 </div>
+<div class="container-lg" id="education-mobile">
+    <div *ngFor="let n of timeline">
+        <div class="card shadow p-3 mb-5 bg-body rounded my-4" id="education-card-sm">
+            <div class="card-body">
+              <h2 class="card-title">{{n.school}} ({{n.duration}})</h2>
+              <h3 class="card-subtitle mb-2 text-muted">{{n.title}}</h3>
+              <h3 class="card-subtitle mb-2 text-muted">{{n.subtitle}}</h3>
+              <p class="card-text">{{n.desc}}</p>
+            </div>
+        </div>
+    </div>
+</div>

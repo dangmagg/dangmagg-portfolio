@@ -36,11 +36,6 @@
     padding-bottom: 15px;
 }
 
-/* .heading h1, .heading p {
-    margin: 0;
-    font-weight: 400;
-} */
-
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     line-height: 1;
@@ -63,10 +58,6 @@
     position: relative;
     z-index: 1;
     padding-bottom: 150px;
-    @media (max-width: 768px) {
-        width: 0;
-        visibility: hidden;
-    }
 }
 
 .about-education::after {
@@ -267,10 +258,37 @@
     transition: all .3s;
 }
 
+#education-card-sm {
+    width: 100%;
+}
+
+.card-title {
+    font-weight: 500;
+    color: $dark-purple;
+}
+
+#education-mobile {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .textbox-right, .textbox-left {
         border-bottom: 1px solid #202020;
         padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 1200px) {
+    #education-mobile {
+        display: block;
+    }
+
+    .about-education {
+        display: none;
+    }
+
+    .education-wrapper {
+        margin-bottom: 0.5rem;
     }
 }
 
