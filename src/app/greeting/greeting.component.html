@@ -5,9 +5,12 @@
                 {{greet.title}}
                 <span class="emoji">👋</span>
             </h1>
-            <p class="greeting-bio">{{greet.bio}}</p>
+            <div class="d-flex justify-content-center flex-wrap">
+                <img src="../../assets/profile.jpg" class="img-thumbnail" alt="Profile Picture">
+                <p class="greeting-bio m-4">{{greet.bio}}</p>
+            </div>
         </div>
-        <div class="greeting-buttons">
+        <div class="greeting-buttons pt-2">
             <div class="main-button">Contact Me</div>
             <div class="main-button">View My Resume</div>
         </div>

@@ -32,9 +32,7 @@
 .greeting-text {
     font-size: 70px;
     line-height: 1.1;
-    // margin-top: 4rem;
     position: relative;
-    // opacity: 100%;
     color: white;
 }
 
@@ -42,7 +40,9 @@
     font-size: 25px;
     line-height: 40px;
     margin-top: 1rem;
+    width: 700px;
     position: relative;
+    text-align: left;
 }
 
 .emoji {
@@ -118,6 +118,8 @@
   .greeting-bio {
       line-height: normal;
       font-size: 20px;
+      width: 500px;
+      text-align: left;
   }
   
 }
