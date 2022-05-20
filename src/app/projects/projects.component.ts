@@ -21,7 +21,7 @@ export class ProjectsComponent implements OnInit {
 
   configPages: any;
 
-  /*TODO: Add Image and Github link for portfolio website */
+  /*TODO: Add Image and Github link for portfolio website, Image for Gallery */
   projs: ProjectEntry[] = [
     {title: "SportCRED Social Media Website", subtitle: "Angular, TypeScript, Django, Python", 
       desc1: "Designed and developed a social media platform for sport enthusiasts in a team of 6 for our client, SportCRED.", 
@@ -29,6 +29,16 @@ export class ProjectsComponent implements OnInit {
       desc3: "Implemented front-end features for users to register, login, access admin privileges, view news, user posts, setting bets, and playing sports trivia.", 
       desc4: "Practiced agile software development lifecycle with daily scrum meetings.", 
       link: "", linkTitle: "", image: "assets/sportcred.gif"},
+    {title: "Visual Chat Room", subtitle: "MEAN (MongoDB, Express, Angular, Node), GraphQL, Heroku", 
+      desc1: "Cooperated with a partner to develop a unique website allowing users to use voice commands to display images and messages in a generated private web link chat room.", 
+      desc2: "Implemented a majority of the front-end with contribution to the back-end resulting in a fully functional website deployed on Heroku.", 
+      desc3: "Video Presentation Link: https://youtu.be/1wd_bkrDR1o", desc4: "", link: "https://visual-chat-room.herokuapp.com/", linkTitle: "Website Link", 
+      image: "assets/vcr.gif"},
+    {title: "Gallery Web Application", subtitle: "JavaScript, Express, Node, NeDB, REST, AJAX", 
+      desc1: "Constructed an image viewing web application allowing users to login and create accounts to upload any image to display on their page.", 
+      desc2: "Enable users to comment on any post with the original poster having the authority to remove comments or images.", 
+      desc3: "Developed both the front and back end, achieving an overall project grade of A.", desc4: "", link: "", linkTitle: "", 
+      image: "assets/farmciti.PNG"},
     {title: "Farm Citi App", subtitle: "Android Studio, Java, Photoshop", 
       desc1: "Participated in Hackathon “Hack Lassonde” with a team of 4 to create an android application to visualize the environmental impact of food choices a user makes.", 
       desc2: "Implemented and designed the main dashboard screen and splash screen.", 
