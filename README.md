@@ -9,7 +9,7 @@ Education Section loosely based off on https://github.com/sarthakgoenka/Angularf
 - Font Awesome
 - animate.css 4
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
 
 ## Development server
 
