@@ -7,16 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GreetingComponent implements OnInit {
 
-  // TODO: add links for linkedin and resume buttons
+  // TODO: add links resume button
   greet = {
     fullname: "Maggie Dang",
     title: "Hello, I'm Maggie",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus."
+    bio: "Highly motivated Computer Science Specialist graduate from the University of Toronto. Looking for positions as a Software Developer / Full-Stack Developer."
   }
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onClickContact() {
+    window.scrollTo(0, document.body.scrollHeight);
   }
 
 }
