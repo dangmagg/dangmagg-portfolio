@@ -23,7 +23,7 @@ export class ProjectsComponent implements OnInit {
 
   /*TODO: Add Image and Github link for portfolio website, Image for Gallery */
   projs: ProjectEntry[] = [
-    {title: "SportCRED Social Media Website", subtitle: "Angular, TypeScript, Django, Python", 
+    {title: "SportCRED Social Media Website", subtitle: "Angular, TypeScript, Django, MongoDB, Python", 
       desc1: "Designed and developed a social media platform for sport enthusiasts in a team of 6 for our client, SportCRED.", 
       desc2: "Chosen as the website the client liked best out of 7+ teams and was utilized as the company’s first functional prototype.", 
       desc3: "Implemented front-end features for users to register, login, access admin privileges, view news, user posts, setting bets, and playing sports trivia.", 
