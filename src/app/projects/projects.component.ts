@@ -21,7 +21,6 @@ export class ProjectsComponent implements OnInit {
 
   configPages: any;
 
-  /*TODO: Add Image and Github link for portfolio website, Image for Gallery */
   projs: ProjectEntry[] = [
     {title: "SportCRED Social Media Website", subtitle: "Angular, TypeScript, Django, MongoDB, Python", 
       desc1: "Designed and developed a social media platform for sports enthusiasts in a team of 6 students following specifications from the client", 
@@ -52,7 +51,7 @@ export class ProjectsComponent implements OnInit {
       linkTitle: "Figma Demo Link", image: "assets/ReAccess.PNG"},
     {title: "Personal Portfolio Website", subtitle: "Angular, Typescript", 
       desc1: "Developed and designed this portfolio website meant to showcase personal and work experience to employers", 
-      desc2: "", desc3: "", desc4: "", link: "", linkTitle: "", 
+      desc2: "", desc3: "", desc4: "", link: "https://github.com/dangmagg/dangmagg-portfolio", linkTitle: "Github Link", 
       image: "assets/portfolio.png"},
     {title: "Computer Science Course Website", subtitle: "JavaScript, Python, HTML, CSS, Flask, SQLite", 
       desc1: "Designed and developed a working course website in a team of 2 (Image shown is an old mockup)", 
