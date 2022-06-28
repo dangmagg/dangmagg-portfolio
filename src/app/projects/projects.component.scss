@@ -132,7 +132,6 @@
     overflow-x: hidden;
 }
 
-
 .card-text {
     font-weight: 300;
     width: 100%;
@@ -154,6 +153,19 @@
     }
     .card-text {
         height: 90px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    .card-text {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 800px) {
+    .card-text {
+        margin-bottom: 70px;
     }
 }
 
