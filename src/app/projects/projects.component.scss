@@ -158,6 +158,9 @@
 }
 
 @media (max-width: 900px) {
+    .card {
+        width: 700px;
+    }
     .card-text {
         margin-bottom: 50px;
     }
@@ -166,6 +169,12 @@
 @media (max-width: 800px) {
     .card-text {
         margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 600px) {
+    .pagination-wrapper {
+        font-size: 13px;
     }
 }
 

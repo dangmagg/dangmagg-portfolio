@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 export interface ProjectEntry {
   title: string;
@@ -18,6 +18,8 @@ export interface ProjectEntry {
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
+
+  windowWidth: any;
 
   configPages: any;
 
@@ -75,6 +77,16 @@ export class ProjectsComponent implements OnInit {
       currentPage: 1,
       totalItems: this.projs.length
     };
+  }
+
+  @HostListener('window:resize', ['$event'])
+  getScreenSize() {
+    this.windowWidth = window.innerWidth;
+    if (this.windowWidth <= 900) {
+      this.configPages.itemsPerPage = 1;
+    } else {
+      this.configPages.itemsPerPage = 2;
+    }
   }
 
   onPageChanged(event){
