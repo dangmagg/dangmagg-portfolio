@@ -35,6 +35,8 @@
     padding-bottom: 3rem;
     padding-top: 3rem;
     background-color: $bg-grey;
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 .skills-section {
@@ -60,5 +62,20 @@
     .skills-section {
         padding-left: 13rem;
         padding-right: 13rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .skills-section {
+        padding-left: 8rem;
+        padding-right: 8rem;
+        height: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+    .skills-section {
+        padding-left: 4rem;
+        padding-right: 4rem;
     }
 }
