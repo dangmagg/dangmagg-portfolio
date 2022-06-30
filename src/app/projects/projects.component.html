@@ -10,7 +10,7 @@
         </div>
         <div class="row">
             <ng-container *ngFor="let p of projs | paginate: configPages">
-                <div class="col-6 animate-box" data-animate-effect="fadeInLeft">
+                <div class="proj-entry-wrapper col-6 animate-box" data-animate-effect="fadeInLeft">
                     <div class="proj-entry d-flex justify-content-center" [class.mat-elevation-z3]="true">
                         <div class="card">
                             <div class="image-container"><img src={{p.image}}/></div>
